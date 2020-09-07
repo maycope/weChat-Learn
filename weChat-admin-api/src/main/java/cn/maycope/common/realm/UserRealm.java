@@ -8,12 +8,14 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * @Author Maycope
  * @Date 2020/9/4
  * @Version 1.0
  */
+@Component
 public class UserRealm extends AuthorizingRealm {
 
 
